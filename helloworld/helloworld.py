@@ -1,5 +1,8 @@
-magicNr = 100
+def printList(l):
+    for x in l:
+        print(x)
 
-x = lambda a: a+ magicNr
 
-print(x(5))
+l=["A","B","C"]
+printList(l)
+
