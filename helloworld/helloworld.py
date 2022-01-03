@@ -1,3 +1,5 @@
-x = lambda a : a+10
+magicNr = 100
 
-print(x(4))
+x = lambda a: a+ magicNr
+
+print(x(5))
